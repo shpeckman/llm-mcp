@@ -1,0 +1,13 @@
+# .ameba.yml
+Globs:
+  - src/**/*.cr
+  - spec/**/*.cr
+
+Naming/QueryBoolMethods:
+  Enabled: false
+
+Lint/NotNil:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false

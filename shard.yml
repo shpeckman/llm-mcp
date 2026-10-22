@@ -1,0 +1,15 @@
+# shard.yml
+name: llm-mcp
+version: 0.1.0
+
+authors:
+  - shpeckman
+
+description: |
+  Standalone Model Context Protocol client: JSON-RPC lifecycle, tools and
+  resources, stdio and Streamable HTTP transports, and MCP OAuth, ported from
+  @earendil-works/pi-mcp.
+
+crystal: ">= 1.21.0"
+
+license: MIT

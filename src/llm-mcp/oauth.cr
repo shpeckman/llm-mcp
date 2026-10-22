@@ -1,0 +1,12 @@
+# src/llm-mcp/oauth.cr
+require "../llm-mcp"
+require "base64"
+require "digest/sha256"
+require "http/server"
+require "./oauth/url"
+require "./oauth/errors"
+require "./oauth/types"
+require "./oauth/discovery"
+require "./oauth/flow"
+require "./oauth/provider"
+require "./oauth/callback"
